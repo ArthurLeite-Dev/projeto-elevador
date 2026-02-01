@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Elevator</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/lines.js" defer></script>
+    <script src="../js/building.js" defer></script>
+</head>
+<body>
+
+    <div class="controlPanel">
+        <div class="display">Ground Floor</div>
+        <button  destination = 'Ground Floor'>0</button>
+        <button  destination = '1'>1</button>
+        <button  destination = '2'>2</button>
+        <button  destination = '3'>3</button>
+        <button  destination = '4'>4</button>
+        <button  destination = '5'>5</button>
+        <button  destination = '6'>6</button>
+    </div>
+
+    <div class="sidewalk">
+        <div class="tree"></div>
+
+        <div class="building">
+
+            <div class="column" floors="6">
+            </div>
+
+            <div class="hoistWay">
+            </div>
+
+            <div class="column" floors="6">
+            </div>
+        </div>
+
+        <div class="tree"></div>
+    </div>
+
+    <div class="road" lines="15">
+    </div>
+</body>
+</html>
